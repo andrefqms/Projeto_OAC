@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdbool.h>
-/* Function to get parity of number n. It returns 1 
-   if n has odd parity, and returns 0 if n has even 
-   parity */
+
+/* Função para obter paridade do número n. Ele retorna 1
+   se n tem paridade ímpar, e retorna 0 se n tiver par
+   paridade */
 bool getParity(unsigned int n) 
 { 
     bool parity = 0; 
@@ -13,8 +14,7 @@ bool getParity(unsigned int n)
     }         
     return parity; 
 } 
-/* Driver program to test getParity() */
-
+/* Main para testar getParity() */
 int main() 
 { 
     unsigned int n;
